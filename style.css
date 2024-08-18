@@ -1,0 +1,53 @@
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+}
+
+.card {
+    text-align: center !important;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.s-right img {
+
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+.s-left {
+    h1 {
+        color: rgb(131, 131, 131);
+    }
+
+    p {
+        color: rgb(161, 161, 161);
+    }
+}
+
+.m-left img {
+
+    width: 100%;
+    max-width: 500px;
+    
+}
+
+.m-right {
+    h1 {
+        color: rgb(131, 131, 131);
+    }
+
+    p {
+        color: rgb(161, 161, 161);
+    }
+}
+
+@media (max-width: 1190px) {
+    .bla-bla-bar {
+    flex-direction: column;
+    }
+}
+
